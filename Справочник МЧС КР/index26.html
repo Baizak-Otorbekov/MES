@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="Header1">
+        <img src="./image/Frame_32.png" alt="">
+        <h1>УМЧС по Ошской МЧС КР</h1>
+    </div>
+    <div class="home1">
+        <a href="index.html">
+            <img src="./image/Group_75.png" alt="">
+        </a>
+    </div>
+    <div class="find">
+        <form id="searchForm">
+            <input type="text" id="searchInput" placeholder="Введите данные">
+            <input type="button" onclick="searchTable()" value="НАЙТИ">
+            <input type="button" onclick="resetTable()" value="СБРОС">
+        </form>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>№</th>
+                <th>Занимаемая должность</th>
+                <th>Ф.И.О.</th>
+                <th>Служебный тел.</th>
+                <th>Мобильный</th>
+                <th>E-mail</th>
+            </tr>
+        </thead>
+        <tbody id="tableBody21">
+            
+        </tbody>
+    </table>
+
+    <script src="./java.js"></script>
+</body>
+</html>
